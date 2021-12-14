@@ -59,11 +59,13 @@ namespace Karar_Verme_Teknikleri
             // 
             // konum
             // 
+            this.konum.BackColor = System.Drawing.Color.Honeydew;
             this.konum.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.konum.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.konum.ForeColor = System.Drawing.Color.LimeGreen;
+            this.konum.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.konum.Location = new System.Drawing.Point(50, 30);
             this.konum.Name = "konum";
+            this.konum.ReadOnly = true;
             this.konum.Size = new System.Drawing.Size(515, 27);
             this.konum.TabIndex = 0;
             this.konum.Text = "BELİRSİZLİK ALTINDA KARAR VERME";
@@ -75,6 +77,9 @@ namespace Karar_Verme_Teknikleri
             this.type.AutoCompleteCustomSource.AddRange(new string[] {
             "Gelir",
             "Maliyet"});
+            this.type.BackColor = System.Drawing.Color.Honeydew;
+            this.type.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.type.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.type.FormattingEnabled = true;
             this.type.Items.AddRange(new object[] {
             "Getir",
@@ -82,58 +87,65 @@ namespace Karar_Verme_Teknikleri
             this.type.Location = new System.Drawing.Point(50, 140);
             this.type.MaxDropDownItems = 3;
             this.type.Name = "type";
-            this.type.Size = new System.Drawing.Size(315, 24);
+            this.type.Size = new System.Drawing.Size(282, 30);
             this.type.TabIndex = 5;
             this.type.SelectedIndexChanged += new System.EventHandler(this.type_SelectedIndexChanged);
             // 
             // typename
             // 
+            this.typename.BackColor = System.Drawing.Color.Honeydew;
             this.typename.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.typename.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.typename.ForeColor = System.Drawing.Color.LimeGreen;
+            this.typename.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.typename.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.typename.Location = new System.Drawing.Point(50, 110);
             this.typename.Name = "typename";
-            this.typename.Size = new System.Drawing.Size(315, 20);
+            this.typename.Size = new System.Drawing.Size(282, 21);
             this.typename.TabIndex = 6;
             this.typename.Text = "Problemin yapısını seçiniz";
             this.typename.TextChanged += new System.EventHandler(this.typename_TextChanged);
             // 
             // alternatif
             // 
+            this.alternatif.BackColor = System.Drawing.Color.Honeydew;
             this.alternatif.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.alternatif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.alternatif.ForeColor = System.Drawing.Color.LimeGreen;
+            this.alternatif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.alternatif.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.alternatif.Location = new System.Drawing.Point(50, 190);
             this.alternatif.Name = "alternatif";
-            this.alternatif.Size = new System.Drawing.Size(315, 20);
+            this.alternatif.Size = new System.Drawing.Size(282, 21);
             this.alternatif.TabIndex = 7;
             this.alternatif.Text = "Alternatif sayısını seçiniz";
             // 
             // durum
             // 
+            this.durum.BackColor = System.Drawing.Color.Honeydew;
             this.durum.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.durum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.durum.ForeColor = System.Drawing.Color.LimeGreen;
+            this.durum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.durum.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.durum.Location = new System.Drawing.Point(50, 270);
             this.durum.Name = "durum";
-            this.durum.Size = new System.Drawing.Size(315, 20);
+            this.durum.Size = new System.Drawing.Size(282, 21);
             this.durum.TabIndex = 8;
             this.durum.Text = "Doğal durumlar sayısını seçiniz";
             // 
             // alpha
             // 
+            this.alpha.BackColor = System.Drawing.Color.Honeydew;
             this.alpha.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.alpha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.alpha.ForeColor = System.Drawing.Color.LimeGreen;
+            this.alpha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.alpha.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.alpha.Location = new System.Drawing.Point(50, 350);
             this.alpha.Name = "alpha";
-            this.alpha.Size = new System.Drawing.Size(315, 20);
+            this.alpha.Size = new System.Drawing.Size(282, 21);
             this.alpha.TabIndex = 9;
             this.alpha.Text = "α seçiniz";
             // 
             // alphano
             // 
+            this.alphano.BackColor = System.Drawing.Color.Honeydew;
             this.alphano.DecimalPlaces = 2;
+            this.alphano.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.alphano.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.alphano.Increment = new decimal(new int[] {
             1,
             0,
@@ -146,7 +158,7 @@ namespace Karar_Verme_Teknikleri
             0,
             0});
             this.alphano.Name = "alphano";
-            this.alphano.Size = new System.Drawing.Size(120, 22);
+            this.alphano.Size = new System.Drawing.Size(282, 27);
             this.alphano.TabIndex = 12;
             this.alphano.Value = new decimal(new int[] {
             1,
@@ -156,12 +168,13 @@ namespace Karar_Verme_Teknikleri
             // 
             // veri
             // 
+            this.veri.BackColor = System.Drawing.Color.Honeydew;
             this.veri.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.veri.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.veri.ForeColor = System.Drawing.Color.LimeGreen;
-            this.veri.Location = new System.Drawing.Point(595, 110);
+            this.veri.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.veri.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.veri.Location = new System.Drawing.Point(527, 110);
             this.veri.Name = "veri";
-            this.veri.Size = new System.Drawing.Size(212, 20);
+            this.veri.Size = new System.Drawing.Size(301, 21);
             this.veri.TabIndex = 13;
             this.veri.Text = "Veri girişi:";
             this.veri.TextChanged += new System.EventHandler(this.veri_TextChanged);
@@ -181,16 +194,22 @@ namespace Karar_Verme_Teknikleri
             // 
             // tbFila1
             // 
+            this.tbFila1.BackColor = System.Drawing.Color.Honeydew;
+            this.tbFila1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tbFila1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.tbFila1.Location = new System.Drawing.Point(50, 216);
             this.tbFila1.Name = "tbFila1";
-            this.tbFila1.Size = new System.Drawing.Size(100, 22);
+            this.tbFila1.Size = new System.Drawing.Size(282, 28);
             this.tbFila1.TabIndex = 15;
             // 
             // tbColumn1
             // 
+            this.tbColumn1.BackColor = System.Drawing.Color.Honeydew;
+            this.tbColumn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tbColumn1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.tbColumn1.Location = new System.Drawing.Point(50, 296);
             this.tbColumn1.Name = "tbColumn1";
-            this.tbColumn1.Size = new System.Drawing.Size(100, 22);
+            this.tbColumn1.Size = new System.Drawing.Size(282, 28);
             this.tbColumn1.TabIndex = 16;
             this.tbColumn1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.tbColumn1.Leave += new System.EventHandler(this.tbColumn1_Leave);
@@ -198,9 +217,9 @@ namespace Karar_Verme_Teknikleri
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LimeGreen;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(595, 459);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.button1.Location = new System.Drawing.Point(527, 459);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 34);
             this.button1.TabIndex = 17;
@@ -211,9 +230,9 @@ namespace Karar_Verme_Teknikleri
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LimeGreen;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(773, 459);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.button2.Location = new System.Drawing.Point(705, 459);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(123, 34);
             this.button2.TabIndex = 18;
@@ -223,103 +242,103 @@ namespace Karar_Verme_Teknikleri
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.Honeydew;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.LimeGreen;
+            this.textBox1.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.textBox1.Location = new System.Drawing.Point(1029, 140);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(136, 19);
+            this.textBox1.Size = new System.Drawing.Size(136, 20);
             this.textBox1.TabIndex = 19;
-            this.textBox1.Text = "İYİMSERLİK";
+            this.textBox1.Text = "  İYİMSERLİK";
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.Honeydew;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.LimeGreen;
+            this.textBox2.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.textBox2.Location = new System.Drawing.Point(1029, 191);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(136, 19);
+            this.textBox2.Size = new System.Drawing.Size(136, 20);
             this.textBox2.TabIndex = 20;
-            this.textBox2.Text = "KÖTÜMSERLİK";
+            this.textBox2.Text = "  KÖTÜMSERLİK";
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.Honeydew;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.LimeGreen;
+            this.textBox3.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.textBox3.Location = new System.Drawing.Point(1029, 238);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(136, 19);
+            this.textBox3.Size = new System.Drawing.Size(136, 20);
             this.textBox3.TabIndex = 21;
-            this.textBox3.Text = "EŞ OLASILIK";
+            this.textBox3.Text = "  EŞ OLASILIK";
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.Honeydew;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.LimeGreen;
+            this.textBox4.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.textBox4.Location = new System.Drawing.Point(1029, 283);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(136, 19);
+            this.textBox4.Size = new System.Drawing.Size(136, 20);
             this.textBox4.TabIndex = 22;
-            this.textBox4.Text = "PİŞMANLIK";
+            this.textBox4.Text = "  PİŞMANLIK";
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.Honeydew;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Modern No. 20", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.LimeGreen;
+            this.textBox5.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.textBox5.Location = new System.Drawing.Point(1029, 325);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(136, 19);
+            this.textBox5.Size = new System.Drawing.Size(136, 20);
             this.textBox5.TabIndex = 23;
-            this.textBox5.Text = "HURWICS";
+            this.textBox5.Text = "  HURWICS";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(1219, 140);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 24;
-            this.label1.Text = "label1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(1219, 190);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 25;
-            this.label2.Text = "label2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(1219, 238);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(0, 17);
             this.label3.TabIndex = 26;
-            this.label3.Text = "label3";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(1219, 286);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.Size = new System.Drawing.Size(0, 17);
             this.label4.TabIndex = 27;
-            this.label4.Text = "label4";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(1219, 325);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.Size = new System.Drawing.Size(0, 17);
             this.label5.TabIndex = 28;
-            this.label5.Text = "label5";
             // 
             // Karar_Verme
             // 
