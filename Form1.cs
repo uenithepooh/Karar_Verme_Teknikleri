@@ -96,7 +96,6 @@ namespace Karar_Verme_Teknikleri
         public void button1_Click(object sender, EventArgs e)
         {
             string alternativa1, alternativa2, alternativa4, alternativa5;
-            int ueni;
             int max = 0;
             int min = 0;
             float[] avg = new float[satir];
